@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-file-organizer"
+version = "1.0.0"
+description = "A modular Python file automation tool with transactional undo and a modern React web dashboard."
+readme = "README.md"
+authors = [{ name = "Anmol Singh" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "Flask>=3.0.0"
+]
+
+[project.scripts]
+file-organizer = "main.file_organizer:main"

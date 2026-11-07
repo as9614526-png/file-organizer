@@ -1,0 +1,4 @@
+# File Organizer Dependencies
+# Note: Core CLI works with 0 dependencies using Python's standard library.
+# Flask is required only for running the local React web server (server.py).
+Flask>=3.0.0
