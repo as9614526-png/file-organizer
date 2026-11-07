@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+organizer.log
+organizer_audit.json
+
+# Demo test folders
+demo_messy_folder/
+
+# Node & Frontend
+**/node_modules/
+frontend/node_modules/
+.npm
+.vite-temp/
+
+# Environment & OS
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
